@@ -7,11 +7,6 @@ import 'pages/help_pages.dart';
 import 'pages/request_pages.dart';
 import 'pages/chat_tracking_pages.dart';
 import 'pages/profile_page.dart';
-import 'pages/daftar_donatur.dart';
-import 'pages/donasi_now.dart';
-import 'pages/donor_page.dart';
-import 'pages/status_bayar.dart';
-
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -31,7 +26,7 @@ class NasiDaruratApp extends StatelessWidget {
     title: 'Nasi Darurat',
     theme: buildTheme(),
     debugShowCheckedModeBanner: false,
-    home: const LandingPage()
+    home: const LandingPage(),
   );
 }
 
