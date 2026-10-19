@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import '../main.dart';
 import '../core/app_theme.dart';
-import '../core/demo_store.dart';
 import '../core/ui.dart';
 import 'donor_nav.dart';
 
